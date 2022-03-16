@@ -67,7 +67,7 @@ services:
 
   # https://github.com/balenablocks/hostname
   hostname:
-    image: balenablocks/hostname:latest
+    image: bh.cr/balenablocks/hostname:latest
     restart: no
     labels:
       io.balena.features.supervisor-api: 1
